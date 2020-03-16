@@ -1,0 +1,73 @@
+#main-part {
+    background: linear-gradient(to right, rgba(75, 52, 150, 0.79),rgba(196, 17, 150, 0.69)), url("../img/street\ light.png");
+    background-size: cover;
+}
+#carousel {
+    background: linear-gradient(to right, rgba(75, 52, 150, 0.79),rgba(196, 17, 180, 0.87)), url(../img/bg.jpg);
+    background-size: cover;
+}
+header {
+    background-color: transparent;
+}
+#check-my-works {
+    background: linear-gradient(to right, rgba(75, 52, 150, 0.79),rgba(196, 17, 150, 0.69)), url("../img/street\ light.png");
+    background-size: cover;
+
+}
+#daily-self-pictures {
+    background: linear-gradient(to right, rgba(75, 52, 150, 0.79),rgba(196, 17, 150, 0.69)), url("../img/street\ light.png");
+    background-size: cover;
+
+}
+.hover {
+    display: none;
+    transition: 0.8s;
+    animation: 0.5s fade-up-img cubic-bezier(0.785, 0.135, 0.15, 0.86)  forwards;
+
+}
+.img-div:hover .hover i {
+    align-items: center;
+    color: black;
+    font-size: 2.5rem;
+    animation: 0.5s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86)  forwards;
+}
+.img-div:hover .hover {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #ffffffba;
+    width: 92%;
+    height: 95%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+}
+@keyframes fadeInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); }
+    to {
+      opacity: 1;
+      transform: translateY(0); } }
+header {
+    background: transparent;
+}
+nav{
+    background: transparent;
+    position: absolute;
+}
+#education {
+    display: none;
+}
+#edu:hover #education {
+    display: inline-block;
+}
+#edu:hover {
+    color: red($color: #000000);
+}
